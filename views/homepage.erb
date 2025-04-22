@@ -1,3 +1,7 @@
-<h1>hola</h1>
+<h1>Convert </h1>
 
-<%= @parsed_response.keys %>
+<% @currencies.keys.each do |symbol| %>
+  <li>
+    <a href="/<%=symbol %>">Convert 1<%= symbol %>...</a>
+  </li>
+<% end %>

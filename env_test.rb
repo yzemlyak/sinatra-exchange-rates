@@ -1,3 +1,3 @@
 require "dotenv/load"
 
-pp ENV.fetch("API_KEY")
+pp ENV.fetch("EXCHANGE_RATE_KEY")
